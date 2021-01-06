@@ -1,8 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is my React/NextJS boilerplate.
 
-## Getting Started
+## Features included
 
-First, run the development server:
+- [Next-Images](https://www.npmjs.com/package/next-images) - Image optmizing and import from any directory (NextJS enforce use of 'public' folder)
+- [Babel plugin inline-svg](https://github.com/iest/babel-plugin-inline-svg#installation) 
+- [Styled-Components](https://github.com/styled-components/styled-components)
+- [Eslint: 'Standard' coding style w/ prettier](https://github.com/eslint/eslint)
+
+# TO-DO
+
+- [SWR](https://github.com/vercel/swr)
+- [DotEnv](https://www.npmjs.com/package/dotenv)
+
+## Run
 
 ```bash
 npm run dev
@@ -10,21 +20,4 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
